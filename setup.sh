@@ -22,7 +22,7 @@ sudo apt install r-base
 
 
 # Install Julia packages and dependencies
-julia -e 'using Pkg; Pkg.add("https://github.com/wildart/LMCLUS.jl.git"); Pkg.add("FreqTables"); Pkg.add("DataFrames"); Pkg.add("CSV"); Pkg.add("PyCall")'
+julia -e 'using Pkg; Pkg.clone("https://github.com/wildart/LMCLUS.jl.git"); Pkg.add("FreqTables"); Pkg.add("DataFrames"); Pkg.add("CSV"); Pkg.add("PyCall")'
 # numpy used by PyCall
 python3 -m pip install numpy
 
