@@ -11,7 +11,7 @@ sudo apt install build-essential libatomic1 python gfortran perl wget m4 cmake g
 # make -j 4
 # make -j 4 install
 
-# Download pre-compiled binary
+# Download pre-compiled julia debian binary
 wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.5-linux-x86_64.tar.gz
 tar zxvf julia-1.0.5-linux-x86_64.tar.gz
 
