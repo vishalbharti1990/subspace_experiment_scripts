@@ -16,7 +16,7 @@ wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.5-linux-x86_
 tar zxvf julia-1.0.5-linux-x86_64.tar.gz
 
 # Add julia to path
-PATH="$HOME/julia-1.0.5/bin:$PATH"
+PATH="$HOME/subspace_experiment_scripts/julia-1.0.5/bin:$PATH"
 export PATH
 
 # Install R
