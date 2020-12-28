@@ -2,21 +2,15 @@
 
 # Install deps
 sudo apt update
-sudo apt install build-essential libatomic1 python gfortran perl wget m4 cmake git-core pkg-config curl wget libblas-dev liblapack-dev
-
-# Download julia 1.0.5 src
-# wget https://github.com/JuliaLang/julia/releases/download/v1.0.5/julia-1.0.5-full.tar.gz
-# tar -xf julia-1.0.5-full.tar.gz
-# cd julia-1.0.5
-# make -j 4
-# make -j 4 install
+sudo apt install build-essential libatomic1 python gfortran perl wget m4 cmake pkg-config curl wget libblas-dev liblapack-dev
 
 # Download pre-compiled julia debian binary
 wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.5-linux-x86_64.tar.gz
-tar zxvf julia-1.0.5-linux-x86_64.tar.gz
+tar zxvf julia-1.0.5-linux-x86_64.tar.gz -C $HOME
+rm julia-1.0.5-linux-x86_64.tar.gz
 
 # Add julia to path
-PATH="$HOME/subspace_experiment_scripts/julia-1.0.5/bin:$PATH"
+PATH="$HOME/julia-1.0.5/bin:$PATH"
 export PATH
 
 # Install R
