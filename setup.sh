@@ -43,4 +43,4 @@ sudo R CMD javareconf
 sudo R -e 'install.packages(c("tictoc","subspace","orclus"), repos="http://cran.rstudio.com/")'
 
 # Get datasets
-git clone https://bitbucket.org/vrbharti1990/subspace_datasets.git
+git clone https://github.com/vishalbharti1990/subspace_datasets.git
