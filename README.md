@@ -1,2 +1,2 @@
-# subspace_experiment_scripts
+# Subspace Experiment Scripts
 Scripts to setup and run subspace clustering experiments
