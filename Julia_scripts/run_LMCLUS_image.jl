@@ -99,7 +99,7 @@ stime = time();
 
 rep_data_file = joinpath(results_dir, join([ARGS[3] "_rep.csv"]));
 
-print("NMI_sqrt NMI_min NMI_max NMI_sum\n")
+print("\nNMI_sqrt NMI_min NMI_max NMI_sum")
 for i=1:reps
 	params.random_seed = seed * i;
     res = lmclus(data, params);

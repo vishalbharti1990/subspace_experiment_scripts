@@ -68,7 +68,7 @@ for (i, data) in enumerate(data_files)
 	rep_res_df = DataFrame(reps = Int[], nmi_sqrt = Float32[], nmi_min = Float32[],
 	 nmi_max = Float32[], nmi_sum = Float32[]);
 
-	print("NMI_sqrt NMI_min NMI_max NMI_sum\n")
+	print("\nNMI_sqrt NMI_min NMI_max NMI_sum")
 	for i=1:reps
 		params.random_seed = seed * i;
 	    res = lmclus(x, params);
